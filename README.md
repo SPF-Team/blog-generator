@@ -11,12 +11,28 @@
     $ rvm install 1.9.3
     $ rvm use 1.9.3
 
-进入本代码仓库的目录后，执行
+接下来你需要安装bundler（如果失败，请尝试用`sudo`进行安装）
 
-    bundle install
-    jekyll serve --watch
+    $ gem install bundler
 
-就可以在`http://localhost:4000`看到博客站点。**请确认站点在本地运行没有问题之后，再更新到github上。**
+接下来将[SPF-Team/blog-generator](https://github.com/SPF-Team/blog-generator)clone到本地
+
+    $ git clone git@github.com:SPF-Team/blog-generator.git
+
+接下来即可在本地部署博客
+    
+    $ cd blog-generator
+    $ bundle install
+
+运行下面的命令运行本地服务器
+
+    $ jekyll serve --watch
+
+就可以在`http://localhost:4000`看到博客站点。接下来，你可以根据[文章编写规范（尚未完成）]()编写新的文章。在确保你的文章可以正常显示后，就可以将其生成后发布。在`blog-generator`根目录下执行
+
+    $ sh deploy.sh  # 如果是Windows系统，请打开deploy.sh文件，逐条执行里面的命令
+
+**请确认站点在本地运行没有问题之后，再更新到github上。**
 
 
 ## Configuration
