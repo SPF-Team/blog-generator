@@ -55,7 +55,7 @@ relative_permalinks: true
 
 permalink:     pretty
 paginate_path: 'page:num'
-paginate: 10
+paginate: 8
 
 markdown:      maruku
 markdown_ext:  md
