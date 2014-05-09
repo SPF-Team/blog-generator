@@ -16,7 +16,7 @@
     bundle install
     jekyll serve --watch
 
-就可以在`http://localhost:4000`看到博客站点。
+就可以在`http://localhost:4000`看到博客站点。**请确认站点在本地运行没有问题之后，再更新到github上。**
 
 
 ## Configuration
