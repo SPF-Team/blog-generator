@@ -41,15 +41,15 @@ task :new do
 ---
 layout: post
 
-title: 【这里填文章标题】
-subtitle: 【这里填文章副标题】
+title: [Your post title here]
+subtitle: [Your post sub-title here]
 
-excerpt: "【这里填文章的摘要，50~100字，注意不要去掉外面的引号】"
+excerpt: "[Your post excerpt here, do not remove the wrapping quotes.]"
 
 author:
-  name: 【这里填你的名字】
-  email: 【这里填你的email】
-  bio: 【这里填你的工作，示例：淘宝UED 前端开发实习工程师】
+  name: [Your name here]
+  email: [Your email here]
+  bio: [Your job here]
 ---
 
  
