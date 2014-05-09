@@ -1,6 +1,9 @@
 # SPF Team Blog
 这个代码仓库托管SPF前端开发团队的团队博客，所有团队内的成员均可在这里进行创作。
 
+## 我们是谁
+SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集团
+
 ## 安装
 博客程序基于[Jekyll](http://jekyllrb.com/)生成，因此你需要先安装Ruby。为了安装Ruby，首先你需要安装[rvm](https://rvm.io/)。
 
@@ -15,7 +18,7 @@
 
     $ gem install bundler
 
-接下来将[SPF-Team/blog-generator](https://github.com/SPF-Team/blog-generator)clone到本地
+接下来将[SPF-Team/blog-generator](https://github.com/SPF-Team/blog-generator) clone到本地
 
     $ git clone git@github.com:SPF-Team/blog-generator.git
 
@@ -28,35 +31,15 @@
 
     $ jekyll serve --watch
 
-就可以在`http://localhost:4000`看到博客站点。接下来，你可以根据[文章编写规范（尚未完成）]()编写新的文章。在确保你的文章可以正常显示后，就可以将其生成后发布。在`blog-generator`根目录下执行
+就可以在`http://localhost:4000`看到博客站点。接下来，你可以根据[文章编写流程](#文章编写流程)编写新的文章。在确保你的文章可以正常显示后，就可以将其生成后发布。在`blog-generator`根目录下执行
 
     $ sh deploy.sh  # 如果是Windows系统，请打开deploy.sh文件，逐条执行里面的命令
 
 **请确认站点在本地运行没有问题之后，再更新到github上。**
 
 
-## Configuration
-Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
+## 文章编写流程
 
-```
-jekyll-incorporated/
-├── _config.yml
-├── _assets/
-    ├── stylesheets/
-        ├── main.scss
-```
-
-_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
-
-    
-## Publish to Github Pages
-1. Add your domain to _CNAME_
-2. Edit your repo address at _Rakefile_
-    
-Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
-``` 
-rake site:publish
-```
 
 ## Usage examples
 
