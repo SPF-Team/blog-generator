@@ -24,10 +24,10 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    true
-    facebook:   true
-    gplus:      true
-    hn:         true
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
     
   
  # Analytics     
@@ -59,13 +59,13 @@ paginate_path: 'page:num'
 paginate: 10
 
 markdown:      maruku
-markdown_ext:  markdown,mkd,mkdn,md
+markdown_ext:  md
 textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
 safe:        false
-host:        0.0.0.0
+host:        127.0.0.1
 port:        4000
 baseurl:     /
 lsi:         false
