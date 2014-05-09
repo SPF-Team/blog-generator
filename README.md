@@ -39,7 +39,51 @@ SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集�
 
 
 ## 文章编写流程
+创建一个新文章，运行
 
+    $ rake new title="文章标题" slug="标题英文缩写"
+
+其中slug参数是必须填写的，并且必须由**小写英文字母或者短线`-`**组成。slug将决定你的博客发布后的url地址。例如，当你设置`slug="my-post"`后，你的博客地址将是`http://yourhost/path/to/post/my-post`。  
+新生成的文章将被生成到_posts文件夹下，格式为`YY-mm-dd-slug.md`。打开后会看到生成的新文章，内容初始为：
+
+    ---
+    layout: post
+
+    title: [Your post title here]
+    subtitle: [Your post sub-title here]
+
+    excerpt: "[Your post excerpt here, do not remove the wrapping quotes.]"
+
+    author:
+      name: [Your name here]
+      email: [Your email here]
+      bio: [Your job here]
+    ---
+
+其中每一项对应一些该文章的属性。
+
+- title：文章标题
+- subtitle：文章小标题
+- excerpt：文章摘要（50到100字为宜），请注意不要去掉双引号。
+- author.name：你的名字
+- author.email：你的email（将影响你的头像显示，默认采用你gravatar上的头像）
+- author.bio：你的个人职位（距离：淘宝UED 实习前端工程师）
+
+示例如下
+
+    ---
+    layout: post
+
+    title: 有关JavaScript性能优化的一些实验
+    subtitle: 基于现有流行框架的总结
+
+    excerpt: "在这篇文章中，我将通过剖析现有流行JS框架的实现，以及评测现有流行JS框架的性能，探讨一些有关JavaScript性能优化的问题。"
+
+    author:
+      name: 伯周
+      email: webmaster@leapoahead.com
+      bio: 淘宝UED 实习前端工程师
+    ---
 
 ## Usage examples
 
