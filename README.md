@@ -67,7 +67,7 @@ SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集�
 - excerpt：文章摘要（50到100字为宜），请注意不要去掉双引号。
 - author.name：你的名字
 - author.email：你的email（将影响你的头像显示，默认采用你gravatar上的头像）
-- author.bio：你的个人职位（距离：淘宝UED 实习前端工程师）
+- author.bio：你的个人职位（举例：淘宝UED 实习前端工程师）
 
 示例如下
 
