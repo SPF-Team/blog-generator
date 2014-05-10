@@ -98,34 +98,10 @@ SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集�
 ####修改文章
 如果你想要修改以前发布过的文章，只需要找到文章对应的markdown文件（在_posts目录下），进行相应的修改后，再次发布即可。
 
-## Usage examples
+## 文章编写帮助
 
-* Adroll Engineering http://tech.adroll.com/
-* Brace.io blog http://blog.brace.io/
-* Spark.io blog http://blog.spark.io/
-* Department of Better Technology http://blog.dobt.co/
+#### 添加本地图片
+添加本地图片是在编译文章前需要完成的事情。你只需要将图片放到[blog-generator](https://github.com/SPF-Team/blog-generator)的`/images`目录下。编译后，这个图片就会被放到站点根目录下的`/images`目录下。
 
-## Authors
-
-Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
-
-**Karri Saarinen**
-
-+ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
-+ [http://github.com/ksaa](http://github.com/ksaa)
-
-**Jori Lallo**
-
-+ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
-+ [http://github.com/jorde](http://github.com/jorilallo)
-
-## Todo:
-
-+ Documentation
-+ Less config files
-+ Better deploy scripts
-
-## Copyright and license
-
-Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
-
+#### 其他帮助
+请参考[伯周](http://github.com/tjwudi)编写的[博客风格指南](http://spf-team.github.io/2014/05/09/spf-intro/)。
