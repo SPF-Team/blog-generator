@@ -11,7 +11,10 @@
 SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集团的实习前端工程师组成。
 
 ## 安装
-博客程序基于[Jekyll](http://jekyllrb.com/)生成，因此你需要先安装Ruby。为了安装Ruby，首先你需要安装[rvm](https://rvm.io/)。
+博客程序基于[Jekyll](http://jekyllrb.com/)生成，因此你需要先安装Ruby。这一步在Mac/Linux下和Windows下略有差别。
+
+####Mac/Linux
+为了安装Ruby，首先你需要安装[rvm](https://rvm.io/)。
 
     $ \curl -sSL https://get.rvm.io | bash -s stable
 
@@ -20,7 +23,20 @@ SPF团队是一个Web前端开发团队，由2014年一同进入阿里巴巴集�
     $ rvm install 1.9.3
     $ rvm use 1.9.3
 
-安装和使用rvm的时候可能会遇到一些问题（比如可能会出现rvm cannot be used as a command之类的问题），在这里我们不多赘述。一些常见的问题都可以在Google上找到答案。接下来你需要安装bundler（如果失败，请尝试用`sudo`进行安装）
+安装和使用rvm的时候可能会遇到一些问题（比如可能会出现rvm cannot be used as a command之类的问题），在这里我们不多赘述。一些常见的问题都可以在Google上找到答案。
+
+
+####Windows
+Windows下有集成好的Ruby安装包[Rubyinstaller](http://rubyinstaller.org/downloads/)。请务必选择1.9.3版本，并且在安装时记住勾选添加环境变量。另外在1.9.2之后的Rubyinstaller中已经内置了gem的安装，所以我们也不需要专门去安装gem。
+
+接下来，在Windows下你还需要安装[DevKit](http://rubyinstaller.org/downloads/)才能正常使用gem。DevKit就在当前下载页面的下方，请选择和Ruby1.9.3对应的版本下载并解压。然后执行。
+
+    $ cd devkit
+    $ ruby dk.rb init
+    $ ruby dk.rb install
+
+####相同部分
+接下来你需要安装bundler（如果失败，请尝试用`sudo`进行安装）
 
     $ gem install bundler
 
