@@ -113,6 +113,7 @@ author:
 
 我们修改一下上面的例子，让动画变成非线性的。
 
+{%highlight javascript%}
     function ease(time) {
       return time * time;
     }
@@ -128,11 +129,13 @@ author:
       pos = ease(pos);
       return !!(el.style.left = (start + (end - start) * pos) + "px");
     }
+{%endhighlight%}
 
 [JSBin](http://jsbin.com/sigoq/2/edit)
 
 我们可以在jQuery的代码中看到这样的函数。
 
+{%highlight javascript%}
     jQuery.easing = {
       linear: function( p ) {
         return p;
@@ -141,10 +144,13 @@ author:
         return 0.5 - Math.cos( p * Math.PI ) / 2;
       }
     };
+{%endhighlight%}
 
 因此，你可以往jQuery.easing里面添加easing function，使得jQuery支持新的动画速率控制方法。注意，easing function的定义域和值域必须都为\[0, 1\]。
 
+{%highlight javascript%}
     jQuery.easing.myEasing = function( p ) { return ... }
+{%endhighlight%}
 
 ## 总结
 本文介绍了JavaScript动画的最基本的原理。

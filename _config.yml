@@ -31,7 +31,7 @@ inc:
   
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
+    google: true # Add tracking code in _includes/_google-analytics.html
       
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
