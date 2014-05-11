@@ -16,7 +16,11 @@
 }
 
 @media (max-width: 720px) {
-    
+
+    .jiathis_style {
+        display: none;
+    }
+
     article {
         padding-top:30px;
         
