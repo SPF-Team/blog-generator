@@ -19,6 +19,7 @@ author:
 ## 目录
 
 - [JavaScript动画实现原理](#JavaScript动画实现原理)
+- [easing](#easing)
 
 <span id="JavaScript动画实现原理"></span>
 ## JavaScript动画实现原理
@@ -92,6 +93,7 @@ author:
 
 [JSBin](http://jsbin.com/fugey/1/edit)
 
+<span id="easing"></span>
 ## easing
 很多时候，我们需要的动画并非线性的。所谓非线性，从直观上看，就是动画速度随着时间会产生变化。那么如何实现变速的动画呢？
 
