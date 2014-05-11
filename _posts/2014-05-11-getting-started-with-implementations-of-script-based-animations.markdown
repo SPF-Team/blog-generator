@@ -107,7 +107,7 @@ author:
 
 这条曲线实际上是函数`y = x * x`的图像。可以看到，两个曲线的定义域和值域并没有变化。曲线的斜率就是动画的速率。接下来我们将两张图重叠在一起做一个对比。
 
-<img src="/images/2014-05-11-getting-started-with-implementations-of-script-based-animations/3.png" class="img-responsive" alt="">
+<img src="/images/2014-05-11-getting-started-with-implementations-of-script-based-animations/4.png" class="img-responsive" alt="">
 
 在真实世界的时间进行到`x0`的时候，动画进程原本应该进行到`y0`，在进行变换之后，只进行到`y1`。到最后，百川归海，两条线交汇于点(1, 1)。这里，`y = x * x`是**变换函数（easing function）**。
 
