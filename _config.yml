@@ -58,7 +58,7 @@ paginate_path: 'page:num'
 paginate: 8
 
 markdown:      maruku
-markdown_ext:  md
+markdown_ext:  md,markdown
 textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"

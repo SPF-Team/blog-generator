@@ -41,7 +41,7 @@ task :new do
 ---
 layout: post
 
-title: [Your post title here]
+title: TITLE
 subtitle: [Your post sub-title here]
 
 excerpt: "[Your post excerpt here, do not remove the wrapping quotes.]"
@@ -51,10 +51,8 @@ author:
   email: [Your email here]
   bio: [Your job here]
 ---
-
- 
 HTML
-  post.gsub!('TITLE', title).gsub!('DATE', Time.new.to_s).gsub!('TYPE', type)
+  post.gsub!('TITLE', title)
   File.open(path, 'w') do |file|
     file.puts post
   end
