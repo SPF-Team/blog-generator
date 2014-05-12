@@ -40,8 +40,8 @@ author:
 移动先行就是一种响应式页面设计策略，采用渐进增强的思想。最初只是为移动端的小视口设备（智能手机等）展现核心内容和功能，然后通过媒体查询为中视口设备（平板电脑等）添加更多的功能和视觉效果，再在大视口传统数字设备（台式机、笔记本电脑）上添加所有的内容和更加复杂的视觉效果，最后为了兼容超大视口（高分屏），可以适当加大原有内容的显示效果，并同时保持内容居中。
 
 ###参考文献
-[渐进增强与优雅降级](http://fatesinger.com/764.html)
 
-[Mobile-First Responsive Web Design](http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/)
+- [渐进增强与优雅降级](http://fatesinger.com/764.html)
+- [Mobile-First Responsive Web Design](http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/)
 
 {% endraw %}
