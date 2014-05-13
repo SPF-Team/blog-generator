@@ -1,0 +1,13 @@
+{
+  "name": "SPF-Team",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "SPF-Team",
+    "email": "webmaster@leapoahead.com",
+    "url": "http://spf-team.github.io/"
+  },
+  "devDependencies": {
+    "async": "*"
+  }
+}

@@ -29,13 +29,13 @@ async.waterfall([
 		exec('git init', next(callback));
 	},
 	function(callback) {
-		exec('git commit -m "Site updated at ' + Date.now + '"', next(callback));
+		exec('git commit -m "Site updated at ' + new Date(Date.now()).toLocaleString() + '"', next(callback));
 	},
 	function(callback) {
 		exec('git remote add origin git@github.com:SPF-Team/SPF-Team.github.io.git', next(callback));
 	},
 	function(callback) {
-		exec('git push origin master:refs/heads/master --force', next(callback));
+		exec('git push origin master:refs/heads/master', next(callback));
 	}
 ], function(err) {
 	if (err) {
