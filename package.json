@@ -8,6 +8,12 @@
     "url": "http://spf-team.github.io/"
   },
   "devDependencies": {
-    "async": "*"
+    "grunt": "~0.4.2",
+    "grunt-jekyll": "~0.4.1",
+    "grunt-gh-pages": "0.9.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-git": "~0.2.8",
+    "grunt-contrib-copy": "^0.5.0",
+    "load-grunt-tasks": "~0.2.0"
   }
 }
