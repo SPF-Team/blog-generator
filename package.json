@@ -1,0 +1,19 @@
+{
+  "name": "SPF-Team",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "SPF-Team",
+    "email": "webmaster@leapoahead.com",
+    "url": "http://spf-team.github.io/"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-jekyll": "~0.4.1",
+    "grunt-gh-pages": "0.9.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-git": "~0.2.8",
+    "grunt-contrib-copy": "^0.5.0",
+    "load-grunt-tasks": "~0.2.0"
+  }
+}

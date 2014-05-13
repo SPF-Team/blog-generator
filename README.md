@@ -55,6 +55,11 @@ Windows下有集成好的Ruby安装包[Rubyinstaller](http://rubyinstaller.org/d
 
 就可以在`http://localhost:4000`看到博客站点。
 
+如果有NodeJS环境，在运行`npm install`安装所需要的包后，有如下指令可以使用：
+* 使用命令`grunt init`进行安装，提交前请使用这个命令初始化
+* 使用命令`grunt server`编译并启动服务器
+* 如果只需要编译生成`_site`文件夹而不启动服务器，可以使用`grunt`或者`grunt build`命令进行编译
+
 ## 文章编写流程
 
 #### 创建新文章
@@ -110,6 +115,8 @@ Windows下有集成好的Ruby安装包[Rubyinstaller](http://rubyinstaller.org/d
     $ sh deploy.sh  # 如果是Windows系统，请打开deploy.sh文件，逐条执行里面的命令
 
 **请确认站点在本地运行没有问题之后，再更新到github上。**
+
+如果使用NodeJS环境的话，本地运行`grunt server`后能够正常访问http:/localhost:4000/，可以通过grunt publish发布文章了
 
 ####修改文章
 如果你想要修改以前发布过的文章，只需要找到文章对应的markdown文件（在_posts目录下），进行相应的修改后，再次发布即可。

@@ -9,7 +9,8 @@ author:
 ---
 
 {% raw %}
-##vertical-align
+
+##vertical-align 
 属性`vertical-align`影响一个内联级元素（inline-level element）垂直方向上的布局。具体适用于`display`值为`inline`,`inline-block`或`table-cell`的元素。
 
 其可选的值有：

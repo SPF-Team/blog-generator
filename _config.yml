@@ -42,7 +42,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:     ['node_modules', 'publish']
 timezone:    nil
 
 # Show future posts
