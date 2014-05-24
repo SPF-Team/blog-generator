@@ -7,7 +7,7 @@ subtitle: 让自动化构建飞起来
 excerpt: "本文介绍新型自动化构建工具gulp的使用方法。"
 
 author:
-  name: 伯周
+  name: 子回
   email: webmaster@leapoahead.com
   bio: 前端开发工程师
 ---

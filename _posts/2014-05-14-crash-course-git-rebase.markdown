@@ -6,7 +6,7 @@ title: "Git速成班: git rebase"
 excerpt: "git rebase是经常被开发者忽略的功能，它允许我们在本地开发新功能的时候，能够创建出更整齐、漂亮的commit log。"
 
 author:
-  name: 伯周
+  name: 子回
   email: webmaster@leapoahead.com
   bio: 前端开发工程师
 ---

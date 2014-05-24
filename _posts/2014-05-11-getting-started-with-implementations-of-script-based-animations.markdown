@@ -6,7 +6,7 @@ title: JavaScript动画实现初探
 excerpt: "本文介绍如何使用JavaScript操作CSS实现最基础的动画效果。"
 
 author:
-  name: 伯周
+  name: 子回
   email: webmaster@leapoahead.com
   bio: 前端开发工程师
 ---

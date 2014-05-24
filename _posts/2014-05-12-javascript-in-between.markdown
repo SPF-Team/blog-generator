@@ -6,7 +6,7 @@ title: JavaScript in-between原理与应用
 excerpt: "本文介绍in-between（tween）的原理，实现。并介绍in-between在动画中的应用。"
 
 author:
-  name: 伯周
+  name: 子回
   email: webmaster@leapoahead.com
   bio: 前端开发工程师
 ---
