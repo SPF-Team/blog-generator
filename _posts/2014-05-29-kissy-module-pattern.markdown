@@ -132,7 +132,7 @@ KISSY支持向服务器传送一串参数，代表请求的所有模块名，并
 Combo是需要服务器端（或者CDN）支持的，实现一个支持Combo的简单服务器应用并不难，这里我们不再多阐述。如果你使用过[Koa](https://github.com/koajs/koa)，那么你可以用它来做静态资源服务器。配合我所编写的一个中间件[koa-combo](https://github.com/tjwudi/koa-combo)，以及koa的cache中间件，就可以搭建一个支持combo的静态资源服务器。
 
 #### 包
-有的时候，所有的模块并不在一个域名下面。回想一下，在常见的程序设计语言（如Java中），我们经常需要创建“命名空间”，或者说“包”。比如，在Java中，类`A`在包`com.zihui.pkg1`下，类`B`在包`com.zijue.pkg2`下，那么在引用类`A`的时候，我们需要使用它的包名+类名来访问它，即`com.zihui.pkg1`，引用类`B`时，我们使用`com.zihui.pkg2`来访问它。
+有的时候，所有的模块并不在一个域名下面。回想一下，在常见的程序设计语言（如Java中），我们经常需要创建“命名空间”，或者说“包”。比如，在Java中，类`A`在包`com.zihui.pkg1`下，类`B`在包`com.zihui.pkg2`下，那么在引用类`A`的时候，我们需要使用它的包名+类名来访问它，即`com.zihui.pkg1`，引用类`B`时，我们使用`com.zihui.pkg2`来访问它。
 
 KISSY中提供了类似的机制，也叫做包机制。假设我们有一个模块`ui/login-form`，基地址为`http://g.tbcdn.cn/common`。另一个模块`ui/dynamic-nav`，基地址为`http://ju.tbcdn.cn/common`。那么我们为这两个基地址定义两个包。
 
