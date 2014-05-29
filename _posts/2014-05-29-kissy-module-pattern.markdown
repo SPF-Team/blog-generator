@@ -4,7 +4,7 @@ layout: post
 title: "KISSY On The Way (1) - Module Pattern"
 subtitle: "让你更好地认识KISSY"
 
-excerpt: "本文介绍KISSY 1.4中的Loader，以及如何部署页面脚本"
+excerpt: "本文介绍KISSY 1.4中的模块机制，以及组织多页面应用的JS脚本"
 
 author:
   name: 子回
