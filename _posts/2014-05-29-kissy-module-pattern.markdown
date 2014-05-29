@@ -103,7 +103,7 @@ KISSY.config({
 
 {%highlight javascript%}
 (function(S) {
-    KISSY.use('login-form', function(S, LoginForm) {
+    S.use('login-form', function(S, LoginForm) {
         (new LoginForm()).render(...);
         // ... More code
     });
@@ -169,7 +169,7 @@ KISSY.config({
 
 {%highlight javascript%}
 
-S.config({
+KISSY.config({
    packages: [
       {
           name: "pages",
