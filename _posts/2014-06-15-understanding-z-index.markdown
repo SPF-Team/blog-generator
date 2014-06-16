@@ -29,7 +29,7 @@ author:
 ![2D页面的世界](http://ww4.sinaimg.cn/mw690/6aadf779gw1eheltpc2g7j211q0t075u.jpg)
 
 
-然而，页面实际上还有第三个维度。垂直于x轴与y轴的方向，存在一个c轴。c轴的正方向指向用户。对于一个页面上的box，它一定有一个c坐标。**注意，此处的c坐标并不是z-index。**
+然而，页面实际上还有第三个维度。垂直于x轴与y轴的方向，存在一个c轴。c轴的正方向指向用户。对于一个页面上的box，它一定有一个c坐标。**注意，此处的c坐标并不是z-index。下图中的坐标名有误，z应该是c。**
 
 ![3D页面的世界](http://ww3.sinaimg.cn/mw690/6aadf779gw1eheltpv2fij209x06ojrb.jpg)
 
